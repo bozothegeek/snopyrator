@@ -62,7 +62,7 @@ def convert_combined_databases(dat_url, gamedb_url):
         # print("full_title : " +  full_title)
         
         checksum = info.get("checksum")
-        if not checksum: 
+        if (not checksum) or (checksum == "0x0000"): 
             continue
         checksum = checksum.strip()
         checksum = checksum[:2] + checksum[2:].upper()
@@ -80,17 +80,33 @@ def convert_combined_databases(dat_url, gamedb_url):
         
         # 1. Get the hex string and strip the "0x" prefix
         hex_str = info.get("internal_title")
-        if not hex_str: 
+        if (not hex_str) or (hex_str == "0x000000000000000000000000000000000000000000"): 
             continue
         hex_str = hex_str.strip()[2:]
         # print("hex_str : " +  hex_str)
         # 2. Convert the hex string into a readable ASCII string ("Hu SUPER BOMBERMAN 3 ")
         clean_title = bytes.fromhex(hex_str).decode('ascii', errors='ignore')
-        # 3. Extract the first character and concatenate with the checksum slice
-        game_id = (clean_title[0:1] + checksum[2:6]).upper()
         
+        # --- SECURE CLEANING ---
+        # Remove any leading/trailing whitespaces or raw newline characters first
+        clean_title = clean_title.strip()
+
+        if clean_title:
+            first_char = clean_title[0]
+            # If the first character is not alphanumeric (e.g., \n, \x00, [, #), replace it with a space
+            if not first_char.isalnum():
+                first_char = " "
+        else:
+            # Fallback default if the string is completely empty after stripping
+            first_char = " "
+
+        # 3. Extract the first character and concatenate with the checksum slice
+        game_id = (first_char + checksum[2:6]).upper()
         if not game_id: 
             continue
+        else:
+            # Force escape any backslash
+            game_id = game_id.replace('\\', '\\\\').upper()
         
         full_title = info.get("release_name").strip()
         title = info.get("title").strip()
@@ -165,7 +181,7 @@ def convert_combined_databases(dat_url, gamedb_url):
 
     # --- Configuration Checklist ---
     # Add any patterns here that you want to filter out IF a final version exists
-    EXCLUSION_PATTERNS = ["(Beta", "(Proto", "(Sample", "NES Conversion", "Virtual Console", "Switch Online"]
+    EXCLUSION_PATTERNS = ["(Beta", "(Proto", "(Demo", "(Sample", "NES Conversion", "Virtual Console", "Switch Online"]
 
     # --- PHASE 3: Filter and Flatten ---
     print("PHASE 3: Filter and Flatten...")

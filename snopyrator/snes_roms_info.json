@@ -428,7 +428,7 @@
             "header_checksum": "0x7234",
             "global_checksum": "0x02EF410D"
         },
-    "!5F12":
+    " 5F12":
         {
             "full_title": "Hello! Pac-Man (Japan).sfc",
             "title": "HELLO! PAC-MAN",
@@ -479,19 +479,6 @@
             "ROM_version": "0",
             "header_checksum": "0xA1DC",
             "global_checksum": "0x0354F4B1"
-        },
-    "F8EBD":
-        {
-            "full_title": "Neuro de Fuzzy Shooting (Japan) (Demo) (Unl).sfc",
-            "title": "Neuro de Fuzzy Shooting",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "NTSC-J",
-            "ROM_version": "0",
-            "header_checksum": "0x8EBD",
-            "global_checksum": "0x03563F35"
         },
     "M66F6":
         {
@@ -1104,7 +1091,7 @@
             "header_checksum": "0x2DE9",
             "global_checksum": "0x07FAFCD0"
         },
-    "254D":
+    " 254D":
         {
             "full_title": "American Tail, An - Fievel Goes West (Europe).sfc",
             "title": "AMERICAN TAIL, AN - FIEVEL GOES WEST",
@@ -2651,45 +2638,6 @@
             "header_checksum": "0xBB9C",
             "global_checksum": "0x10C6F5AD"
         },
-    "S0000":
-        {
-            "full_title": "Super Fire Pro Wrestling 3 (Japan) (Auto Demo).sfc",
-            "title": "SUPER FIRE PRO WRESTLING 3",
-            "cartridge_type": "FastROM HiROM",
-            "ROM_size": "1 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0x10D71B45"
-        },
-    "S0000":
-        {
-            "full_title": "Mario's Early Years - Fun with Numbers (USA).sfc",
-            "title": "MARIO'S EARLY YEARS - FUN WITH NUMBERS",
-            "cartridge_type": "FastROM HiROM",
-            "ROM_size": "1 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "USA",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0x8C0C37F4"
-        },
-    "S0000":
-        {
-            "full_title": "Socks the Cat Rocks the Hill (USA, Europe) (Second Dimension).sfc",
-            "title": "SOCKS THE CAT ROCKS THE HILL",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "1 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "USA",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xCAC6521F"
-        },
     "S2651":
         {
             "full_title": "Bishoujo Senshi Sailor Moon S - Kondo wa Puzzle de Oshioki yo!! (Japan).sfc",
@@ -2780,32 +2728,6 @@
             "ROM_version": "0",
             "header_checksum": "0x9D93",
             "global_checksum": "0x118B162E"
-        },
-    "H0000":
-        {
-            "full_title": "Hong Kong '97 (Japan) (En,Ja,Zh-Hant).sfc",
-            "title": "HONG KONG '97",
-            "cartridge_type": "SlowROM LoROM",
-            "ROM_size": "0 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0x11A6E64B"
-        },
-    "H0000":
-        {
-            "full_title": "Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (CM).sfc",
-            "title": "HONG KONG '97",
-            "cartridge_type": "SlowROM LoROM",
-            "ROM_size": "0 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xC6A95816"
         },
     " 0403":
         {
@@ -3041,7 +2963,7 @@
             "header_checksum": "0xECF7",
             "global_checksum": "0x133E1C5B"
         },
-    " 074C":
+    "C074C":
         {
             "full_title": "Kouryaku Casino Bar (Japan).sfc",
             "title": "KOURYAKU CASINO BAR",
@@ -4510,7 +4432,7 @@
             "header_checksum": "0x287D",
             "global_checksum": "0x1BB2A0A4"
         },
-    "5A61":
+    " 5A61":
         {
             "full_title": "Tadaima Yuusha Boshuuchuu Okawari (Japan).sfc",
             "title": "TADAIMA YUUSHA BOSHUUCHUU OKAWARI",
@@ -5459,7 +5381,7 @@
             "header_checksum": "0xF082",
             "global_checksum": "0x216F2FC7"
         },
-    " E2CF":
+    "GE2CF":
         {
             "full_title": "Take Yutaka GI Memory (Japan).sfc",
             "title": "TAKE YUTAKA GI MEMORY",
@@ -5653,19 +5575,6 @@
             "ROM_version": "0",
             "header_checksum": "0x4BCA",
             "global_checksum": "0x232BB5B8"
-        },
-    "T0000":
-        {
-            "full_title": "Tales of Phantasia (Japan).sfc",
-            "title": "TALES OF PHANTASIA",
-            "cartridge_type": "FastROM ExHiROM",
-            "ROM_size": "6 MiB",
-            "has_RAM": "1",
-            "has_Battery": "1",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xE9946B84"
         },
     "N4BAB":
         {
@@ -6421,7 +6330,7 @@
             "header_checksum": "0xBA4C",
             "global_checksum": "0x2736B607"
         },
-    " 0438":
+    "L0438":
         {
             "full_title": "Haou Taikei Ryuu Knight - Lord of Paladin (Japan) (Rev 1).sfc",
             "title": "HAOU TAIKEI RYUU KNIGHT - LORD OF PALADIN",
@@ -6512,7 +6421,7 @@
             "header_checksum": "0xBF92",
             "global_checksum": "0x27A03C98"
         },
-    " 9ABF":
+    "59ABF":
         {
             "full_title": "Super Famista 5 (Japan).sfc",
             "title": "SUPER FAMISTA 5",
@@ -6538,7 +6447,7 @@
             "header_checksum": "0xE5BC",
             "global_checksum": "0x27C87D04"
         },
-    "~6F99":
+    " 6F99":
         {
             "full_title": "Granhistoria - Genshi Sekaiki (Japan) (Rev 1).sfc",
             "title": "GRANHISTORIA - GENSHI SEKAIKI",
@@ -7070,19 +6979,6 @@
             "ROM_version": "0",
             "header_checksum": "0xC4EE",
             "global_checksum": "0x2BF7CD65"
-        },
-    "E0000":
-        {
-            "full_title": "J.League Excite Stage '95 (Japan) (Demo).sfc",
-            "title": "J.League Excite Stage '95",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "",
-            "has_RAM": "1",
-            "has_Battery": "1",
-            "destination": "NTSC-J",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xC286EE0C"
         },
     "S0BB3":
         {
@@ -7994,7 +7890,7 @@
             "header_checksum": "0x4DBF",
             "global_checksum": "0x31B1AD00"
         },
-    " 174A":
+    "2174A":
         {
             "full_title": "Majin Tensei II - Spiral Nemesis (Japan).sfc",
             "title": "MAJIN TENSEI II - SPIRAL NEMESIS",
@@ -8293,7 +8189,7 @@
             "header_checksum": "0x5E8F",
             "global_checksum": "0x33304519"
         },
-    " A149":
+    "1A149":
         {
             "full_title": "Gokinjo Boukentai (Japan).sfc",
             "title": "GOKINJO BOUKENTAI",
@@ -8423,7 +8319,7 @@
             "header_checksum": "0xC0E9",
             "global_checksum": "0x3447609E"
         },
-    " 6C56":
+    "S6C56":
         {
             "full_title": "Pachio-kun Special 3 (Japan).sfc",
             "title": "PACHIO-KUN SPECIAL 3",
@@ -8527,7 +8423,7 @@
             "header_checksum": "0x9AAF",
             "global_checksum": "0x34FAD701"
         },
-    " 24B6":
+    "S24B6":
         {
             "full_title": "Pachio-kun Special (Japan).sfc",
             "title": "PACHIO-KUN SPECIAL",
@@ -9541,7 +9437,7 @@
             "header_checksum": "0x8AF3",
             "global_checksum": "0x3BBAEB19"
         },
-    " 34C4":
+    "S34C4":
         {
             "full_title": "Honke Sankyo Fever - Jikki Simulation (Japan).sfc",
             "title": "HONKE SANKYO FEVER - JIKKI SIMULATION",
@@ -9931,7 +9827,7 @@
             "header_checksum": "0x850A",
             "global_checksum": "0x3D7252D4"
         },
-    " 4D00":
+    "B4D00":
         {
             "full_title": "Angelique - Premium Box (Japan).sfc",
             "title": "ANGELIQUE - PREMIUM BOX",
@@ -10047,32 +9943,6 @@
             "ROM_version": "0",
             "header_checksum": "0x9950",
             "global_checksum": "0x3E14376B"
-        },
-    "\2DE9":
-        {
-            "full_title": "Peru - Operation Chavin de Huantar (USA) (Demo) (Unl).sfc",
-            "title": "Peru - Operation Chavin de Huantar",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "NTSC-U",
-            "ROM_version": "0",
-            "header_checksum": "0x2DE9",
-            "global_checksum": "0x3E3032EA"
-        },
-    "\2DE9":
-        {
-            "full_title": "Time Pilot (USA) (Demo) (Pirate).sfc",
-            "title": "Time Pilot",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "NTSC-U",
-            "ROM_version": "0",
-            "header_checksum": "0x2DE9",
-            "global_checksum": "0x65674821"
         },
     "TA202":
         {
@@ -10425,7 +10295,7 @@
             "header_checksum": "0x2036",
             "global_checksum": "0x4097BC01"
         },
-    " C253":
+    "FC253":
         {
             "full_title": "Nigel Mansell F-1 Challenge (Japan).sfc",
             "title": "NIGEL MANSELL F-1 CHALLENGE",
@@ -11868,7 +11738,7 @@
             "header_checksum": "0x1316",
             "global_checksum": "0x4A55CFB8"
         },
-    " BFB9":
+    "2BFB9":
         {
             "full_title": "Hissatsu Pachinko Collection 2 (Japan).sfc",
             "title": "HISSATSU PACHINKO COLLECTION 2",
@@ -11933,7 +11803,7 @@
             "header_checksum": "0x2A4F",
             "global_checksum": "0x4A736C38"
         },
-    "~C717":
+    " C717":
         {
             "full_title": "Granhistoria - Genshi Sekaiki (Japan).sfc",
             "title": "GRANHISTORIA - GENSHI SEKAIKI",
@@ -13129,7 +12999,7 @@
             "header_checksum": "0xE2CB",
             "global_checksum": "0x51177158"
         },
-    "!186A":
+    " 186A":
         {
             "full_title": "Shounin yo, Taishi o Idake!! (Japan).sfc",
             "title": "SHOUNIN YO, TAISHI O IDAKE!!",
@@ -14546,7 +14416,7 @@
             "header_checksum": "0x3185",
             "global_checksum": "0x57DCD2A1"
         },
-    " 5DB0":
+    "S5DB0":
         {
             "full_title": "Honke Sankyo Fever 2 - Jikki Simulation (Japan).sfc",
             "title": "HONKE SANKYO FEVER 2 - JIKKI SIMULATION",
@@ -15105,7 +14975,7 @@
             "header_checksum": "0x6795",
             "global_checksum": "0x5BDF5A87"
         },
-    "!1813":
+    " 1813":
         {
             "full_title": "Super Tekkyuu Fight! (Japan).sfc",
             "title": "SUPER TEKKYUU FIGHT!",
@@ -15975,19 +15845,6 @@
             "ROM_version": "0",
             "header_checksum": "0xEE3A",
             "global_checksum": "0x61011074"
-        },
-    "\880F":
-        {
-            "full_title": "Ayrton Senna Revival Show (World) (Pt) (Demo) (Unl).sfc",
-            "title": "Ayrton Senna Revival Show",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "NTSC-U",
-            "ROM_version": "0",
-            "header_checksum": "0x880F",
-            "global_checksum": "0x611C3C6D"
         },
     "C0C3C":
         {
@@ -17471,7 +17328,7 @@
             "header_checksum": "0xF60B",
             "global_checksum": "0x6AA46CFC"
         },
-    " 3E02":
+    "23E02":
         {
             "full_title": "Zenkoku Koukou Soccer 2 (Japan).sfc",
             "title": "ZENKOKU KOUKOU SOCCER 2",
@@ -17731,7 +17588,7 @@
             "header_checksum": "0x860B",
             "global_checksum": "0x6C50C2CF"
         },
-    "!5672":
+    " 5672":
         {
             "full_title": "Ace o Nerae! (Japan).sfc",
             "title": "ACE O NERAE!",
@@ -19083,7 +18940,7 @@
             "header_checksum": "0xDE21",
             "global_checksum": "0x75993355"
         },
-    " CBDE":
+    "SCBDE":
         {
             "full_title": "Honke Sankyo Fever 3 - Jikki Simulation (Japan).sfc",
             "title": "HONKE SANKYO FEVER 3 - JIKKI SIMULATION",
@@ -19486,7 +19343,7 @@
             "header_checksum": "0x7466",
             "global_checksum": "0x788E42C9"
         },
-    "-52B9":
+    " 52B9":
         {
             "full_title": "Hero Senki - Project Olympus (Japan).sfc",
             "title": "HERO SENKI - PROJECT OLYMPUS",
@@ -19849,19 +19706,6 @@
             "ROM_version": "0",
             "header_checksum": "0x0560",
             "global_checksum": "0x7AEDD703"
-        },
-    "A0000":
-        {
-            "full_title": "SuFami Turbo (Japan).sfc",
-            "title": "SUFAMI TURBO",
-            "cartridge_type": "FastROM LoROM",
-            "ROM_size": "0 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0x9B4CA911"
         },
     "FCD3C":
         {
@@ -20916,7 +20760,7 @@
             "header_checksum": "0x050B",
             "global_checksum": "0x82AF5B69"
         },
-    " 3138":
+    "33138":
         {
             "full_title": "Super Campeones (Peru) (Es) (Pirate).sfc",
             "title": "SUPER CAMPEONES",
@@ -21098,7 +20942,7 @@
             "header_checksum": "0x2B48",
             "global_checksum": "0x836EE990"
         },
-    " 0E0D":
+    "20E0D":
         {
             "full_title": "Great Battle Gaiden 2, The - Matsuri da Wasshoi (Japan).sfc",
             "title": "GREAT BATTLE GAIDEN 2, THE - MATSURI DA WASSHOI",
@@ -21371,7 +21215,7 @@
             "header_checksum": "0x6A5E",
             "global_checksum": "0x854FAC00"
         },
-    " 7A7F":
+    "P7A7F":
         {
             "full_title": "Super Real Mahjong PIV (Japan).sfc",
             "title": "SUPER REAL MAHJONG PIV",
@@ -22190,7 +22034,7 @@
             "header_checksum": "0xFA9F",
             "global_checksum": "0x8A926D1A"
         },
-    "-B180":
+    " B180":
         {
             "full_title": "Mahjong Hanjouki (Japan).sfc",
             "title": "MAHJONG HANJOUKI",
@@ -23009,7 +22853,7 @@
             "header_checksum": "0xBA95",
             "global_checksum": "0x8F0D2C90"
         },
-    " DC2F":
+    "SDC2F":
         {
             "full_title": "Pachio-kun Special 2 (Japan).sfc",
             "title": "PACHIO-KUN SPECIAL 2",
@@ -23815,7 +23659,7 @@
             "header_checksum": "0xFE08",
             "global_checksum": "0x94C1D85C"
         },
-    " 3388":
+    "33388":
         {
             "full_title": "Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan) (Rev 1).sfc",
             "title": "DOKAPON 3-2-1 - ARASHI O YOBU YUUJOU",
@@ -24009,6 +23853,19 @@
             "ROM_version": "0",
             "header_checksum": "0xC093",
             "global_checksum": "0x9582F89F"
+        },
+    " FF00":
+        {
+            "full_title": "Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sfc",
+            "title": "WINTER OLYMPICS - LILLEHAMMER '94",
+            "cartridge_type": "SlowROM LoROM",
+            "ROM_size": "2 MiB",
+            "has_RAM": "0",
+            "has_Battery": "0",
+            "destination": "Europe",
+            "ROM_version": "255",
+            "header_checksum": "0xFF00",
+            "global_checksum": "0xFCB1C794"
         },
     "FFC41":
         {
@@ -24777,7 +24634,7 @@
             "header_checksum": "0x79FF",
             "global_checksum": "0x9B9F3F71"
         },
-    " 12E5":
+    "412E5":
         {
             "full_title": "Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan).sfc",
             "title": "KESSEN! DOKAPON OUKOKU IV - DENSETSU NO YUUSHA-TACHI",
@@ -25011,7 +24868,7 @@
             "header_checksum": "0x49A3",
             "global_checksum": "0x9D7BD920"
         },
-    " 2272":
+    "22272":
         {
             "full_title": "Thoroughbred Breeder II (Japan).sfc",
             "title": "THOROUGHBRED BREEDER II",
@@ -25349,7 +25206,7 @@
             "header_checksum": "0xED2E",
             "global_checksum": "0x9FD460A4"
         },
-    "!C514":
+    " C514":
         {
             "full_title": "Pikiinya! (Japan).sfc",
             "title": "PIKIINYA!",
@@ -25596,7 +25453,7 @@
             "header_checksum": "0x1AEA",
             "global_checksum": "0xA1981915"
         },
-    " 2FEC":
+    "12FEC":
         {
             "full_title": "Hissatsu Pachinko Collection (Japan).sfc",
             "title": "HISSATSU PACHINKO COLLECTION",
@@ -25622,7 +25479,7 @@
             "header_checksum": "0x3DB0",
             "global_checksum": "0xA1C28940"
         },
-    " CE61":
+    "7CE61":
         {
             "full_title": "Pachinko Tetsujin - Nanaban Shoubu (Japan).sfc",
             "title": "PACHINKO TETSUJIN - NANABAN SHOUBU",
@@ -26077,7 +25934,7 @@
             "header_checksum": "0x316E",
             "global_checksum": "0xA4374771"
         },
-    " 8590":
+    "28590":
         {
             "full_title": "Honkaku Mahjong - Tetsuman II (Japan).sfc",
             "title": "HONKAKU MAHJONG - TETSUMAN II",
@@ -26323,19 +26180,6 @@
             "ROM_version": "0",
             "header_checksum": "0x5EE5",
             "global_checksum": "0xA5D41D2F"
-        },
-    " 0000":
-        {
-            "full_title": "Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En).sfc",
-            "title": "CHOUJIKUU YOUSAI MACROSS - SCRAMBLED VALKYRIE",
-            "cartridge_type": "SlowROM LoROM",
-            "ROM_size": "1 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xA5DB02E9"
         },
     "S269A":
         {
@@ -28235,7 +28079,7 @@
             "header_checksum": "0x47C0",
             "global_checksum": "0xB0A3441E"
         },
-    " 73D7":
+    "P73D7":
         {
             "full_title": "Pachi-Slot Gambler (Japan).sfc",
             "title": "PACHI-SLOT GAMBLER",
@@ -29002,7 +28846,7 @@
             "header_checksum": "0x2B63",
             "global_checksum": "0xB5117ECF"
         },
-    " 7089":
+    "37089":
         {
             "full_title": "Shinri Game 3, The (Japan).sfc",
             "title": "SHINRI GAME 3, THE",
@@ -29054,7 +28898,7 @@
             "header_checksum": "0xCC69",
             "global_checksum": "0xB5693B18"
         },
-    "2DF9":
+    " 2DF9":
         {
             "full_title": "Rin Kaihou Kudan no Igo Taidou (Japan).sfc",
             "title": "RIN KAIHOU KUDAN NO IGO TAIDOU",
@@ -29366,7 +29210,7 @@
             "header_checksum": "0x3584",
             "global_checksum": "0xB7A66353"
         },
-    " C3C2":
+    "LC3C2":
         {
             "full_title": "Haou Taikei Ryuu Knight - Lord of Paladin (Japan).sfc",
             "title": "HAOU TAIKEI RYUU KNIGHT - LORD OF PALADIN",
@@ -30263,7 +30107,7 @@
             "header_checksum": "0x8C86",
             "global_checksum": "0xBCD59D08"
         },
-    " 7BF0":
+    "C7BF0":
         {
             "full_title": "Capcom's MVP Football (USA).sfc",
             "title": "CAPCOM'S MVP FOOTBALL",
@@ -30393,7 +30237,7 @@
             "header_checksum": "0x5BF9",
             "global_checksum": "0xBE523800"
         },
-    " 70C3":
+    "D70C3":
         {
             "full_title": "Supapoon DX (Japan).sfc",
             "title": "SUPAPOON DX",
@@ -31329,7 +31173,7 @@
             "header_checksum": "0x2570",
             "global_checksum": "0xC4B73E75"
         },
-    " AE9D":
+    "2AE9D":
         {
             "full_title": "Super Famista 2 (Japan).sfc",
             "title": "SUPER FAMISTA 2",
@@ -31901,7 +31745,7 @@
             "header_checksum": "0x8A23",
             "global_checksum": "0xC8002453"
         },
-    "!ED93":
+    " ED93":
         {
             "full_title": "Kingyo Chuuihou! - Tobidase! Game Gakuen (Japan).sfc",
             "title": "KINGYO CHUUIHOU! - TOBIDASE! GAME GAKUEN",
@@ -32551,7 +32395,7 @@
             "header_checksum": "0x8C2C",
             "global_checksum": "0xCB483EAD"
         },
-    " B59F":
+    "OB59F":
         {
             "full_title": "Men in Black (USA) (Pirate).sfc",
             "title": "MEN IN BLACK",
@@ -33591,7 +33435,7 @@
             "header_checksum": "0xCD39",
             "global_checksum": "0xD1AE87BE"
         },
-    "-2C02":
+    " 2C02":
         {
             "full_title": "Monster Maker Kids - Ousama ni Naritai (Japan).sfc",
             "title": "MONSTER MAKER KIDS - OUSAMA NI NARITAI",
@@ -33981,7 +33825,7 @@
             "header_checksum": "0x6CBC",
             "global_checksum": "0xD4EF91CE"
         },
-    " AB96":
+    "2AB96":
         {
             "full_title": "Super Wagyan Land 2 (Japan).sfc",
             "title": "SUPER WAGYAN LAND 2",
@@ -34085,7 +33929,7 @@
             "header_checksum": "0x066C",
             "global_checksum": "0xD575FDFC"
         },
-    "!EBA0":
+    " EBA0":
         {
             "full_title": "Ancient Magic - Bazoe! Mahou Sekai (Japan).sfc",
             "title": "ANCIENT MAGIC - BAZOE! MAHOU SEKAI",
@@ -34878,7 +34722,7 @@
             "header_checksum": "0xBA49",
             "global_checksum": "0xD9C47B04"
         },
-    "AD52":
+    " AD52":
         {
             "full_title": "Nekketsu Tairiku - Burning Heroes (Japan).sfc",
             "title": "NEKKETSU TAIRIKU - BURNING HEROES",
@@ -36113,19 +35957,6 @@
             "header_checksum": "0x90CF",
             "global_checksum": "0xE278E9B4"
         },
-    "_0000":
-        {
-            "full_title": "Super Fire Pro Wrestling Special (Japan).sfc",
-            "title": "SUPER FIRE PRO WRESTLING SPECIAL",
-            "cartridge_type": "FastROM HiROM",
-            "ROM_size": "4 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Japan",
-            "ROM_version": "0",
-            "header_checksum": "0x0000",
-            "global_checksum": "0xE279EBE3"
-        },
     "T94D5":
         {
             "full_title": "Total Carnage (USA).sfc",
@@ -36268,19 +36099,6 @@
             "ROM_version": "0",
             "header_checksum": "0x68C1",
             "global_checksum": "0xE38C4A5B"
-        },
-    "PFFFF":
-        {
-            "full_title": "Kevin Keegan's Player Manager (Europe) (Demo 1).sfc",
-            "title": "KEVIN KEEGAN'S PLAYER MANAGER",
-            "cartridge_type": "SlowROM LoROM",
-            "ROM_size": "0 MiB",
-            "has_RAM": "1",
-            "has_Battery": "1",
-            "destination": "Europe",
-            "ROM_version": "0",
-            "header_checksum": "0xFFFF",
-            "global_checksum": "0xE3DFF03D"
         },
     "PF20B":
         {
@@ -36672,7 +36490,7 @@
             "header_checksum": "0x95B1",
             "global_checksum": "0xE60EB6C0"
         },
-    "'4FCD":
+    " 4FCD":
         {
             "full_title": "Super Baken Ou '95 (Japan).sfc",
             "title": "SUPER BAKEN OU '95",
@@ -37504,7 +37322,7 @@
             "header_checksum": "0xD39E",
             "global_checksum": "0xEC2CCAF6"
         },
-    "-32DF":
+    " 32DF":
         {
             "full_title": "Angelique (Japan).sfc",
             "title": "ANGELIQUE",
@@ -37855,7 +37673,7 @@
             "header_checksum": "0x18FE",
             "global_checksum": "0xEE92CEB5"
         },
-    "7AAF":
+    " 7AAF":
         {
             "full_title": "American Tail, An - Fievel Goes West (USA).sfc",
             "title": "AMERICAN TAIL, AN - FIEVEL GOES WEST",
@@ -37920,7 +37738,7 @@
             "header_checksum": "0x9E41",
             "global_checksum": "0xEEC5A5B1"
         },
-    " 8573":
+    "18573":
         {
             "full_title": "Jungle no Ouja Tar-chan - Sekaimanyuu Daikakutou no Maki (Japan).sfc",
             "title": "JUNGLE NO OUJA TAR-CHAN - SEKAIMANYUU DAIKAKUTOU NO MAKI",
@@ -38635,7 +38453,7 @@
             "header_checksum": "0x489D",
             "global_checksum": "0xF3589B15"
         },
-    "(9E4D":
+    " 9E4D":
         {
             "full_title": "Gamars Puzzle (Taiwan).sfc",
             "title": "GAMARS PUZZLE",
@@ -38752,7 +38570,7 @@
             "header_checksum": "0xD4E6",
             "global_checksum": "0xF409C139"
         },
-    " 5BD6":
+    "25BD6":
         {
             "full_title": "Final Fight 2 (Japan).sfc",
             "title": "FINAL FIGHT 2",
@@ -39454,7 +39272,7 @@
             "header_checksum": "0x772A",
             "global_checksum": "0xF9792194"
         },
-    " 77FB":
+    "477FB":
         {
             "full_title": "Super Campeones 4 (Peru) (Es) (Pirate).sfc",
             "title": "SUPER CAMPEONES 4",
@@ -39909,7 +39727,7 @@
             "header_checksum": "0xFB9D",
             "global_checksum": "0xFC23E228"
         },
-    " B575":
+    "3B575":
         {
             "full_title": "Dokapon 3-2-1 - Arashi o Yobu Yuujou (Japan).sfc",
             "title": "DOKAPON 3-2-1 - ARASHI O YOBU YUUJOU",
@@ -39947,19 +39765,6 @@
             "ROM_version": "0",
             "header_checksum": "0xA19E",
             "global_checksum": "0xFC633ECB"
-        },
-    " FF00":
-        {
-            "full_title": "Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sfc",
-            "title": "WINTER OLYMPICS - LILLEHAMMER '94",
-            "cartridge_type": "SlowROM LoROM",
-            "ROM_size": "2 MiB",
-            "has_RAM": "0",
-            "has_Battery": "0",
-            "destination": "Europe",
-            "ROM_version": "255",
-            "header_checksum": "0xFF00",
-            "global_checksum": "0xFCB1C794"
         },
     " A381":
         {
@@ -40613,32 +40418,6 @@
         },
     "UNKNOWN":
         {
-            "full_title": "BLT (World) (Demo 1).sfc",
-            "title": "BLT",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x75F193F0"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "BLT (World) (Demo 2).sfc",
-            "title": "BLT",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xDA63D27F"
-        },
-    "UNKNOWN":
-        {
             "full_title": "Bananas de Pijamas (Peru) (En) (Pirate).sfc",
             "title": "BANANAS DE PIJAMAS",
             "cartridge_type": null,
@@ -40909,6 +40688,19 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0xCE7CD57F"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En).sfc",
+            "title": "CHOUJIKUU YOUSAI MACROSS - SCRAMBLED VALKYRIE",
+            "cartridge_type": null,
+            "ROM_size": "1 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0xA5DB02E9"
         },
     "UNKNOWN":
         {
@@ -41393,32 +41185,6 @@
         },
     "UNKNOWN":
         {
-            "full_title": "Eyra - The Crow Maiden (World) (Demo 1).sfc",
-            "title": "EYRA - THE CROW MAIDEN",
-            "cartridge_type": null,
-            "ROM_size": "2 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xC207C7D4"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Eyra - The Crow Maiden (World) (Demo 2).sfc",
-            "title": "EYRA - THE CROW MAIDEN",
-            "cartridge_type": null,
-            "ROM_size": "2 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x7C2C0BF7"
-        },
-    "UNKNOWN":
-        {
             "full_title": "F-Zero (USA).sfc",
             "title": "F-ZERO",
             "cartridge_type": null,
@@ -41822,6 +41588,32 @@
         },
     "UNKNOWN":
         {
+            "full_title": "Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (CM).sfc",
+            "title": "HONG KONG '97",
+            "cartridge_type": null,
+            "ROM_size": "0 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0xC6A95816"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Hong Kong '97 (Japan) (En,Ja,Zh-Hant).sfc",
+            "title": "HONG KONG '97",
+            "cartridge_type": null,
+            "ROM_size": "0 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0x11A6E64B"
+        },
+    "UNKNOWN":
+        {
             "full_title": "Hori GameCube Controller Test (Japan) (En).sfc",
             "title": "HORI GAMECUBE CONTROLLER TEST",
             "cartridge_type": null,
@@ -41832,32 +41624,6 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0xA7DA7773"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Horizontal Shooter (World) (Demo 1).sfc",
-            "title": "HORIZONTAL SHOOTER",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xCDE1DFA9"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Horizontal Shooter (World) (Demo 2).sfc",
-            "title": "HORIZONTAL SHOOTER",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x901293AE"
         },
     "UNKNOWN":
         {
@@ -42121,19 +41887,6 @@
         },
     "UNKNOWN":
         {
-            "full_title": "Kevin Keegan's Player Manager (Europe) (Demo 2).sfc",
-            "title": "KEVIN KEEGAN'S PLAYER MANAGER",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Europe",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x7F480ABD"
-        },
-    "UNKNOWN":
-        {
             "full_title": "King of Fighters '98, The (USA) (Pirate).sfc",
             "title": "KING OF FIGHTERS '98, THE",
             "cartridge_type": null,
@@ -42352,6 +42105,19 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0x46B9F6D3"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Mario's Early Years - Fun with Numbers (USA).sfc",
+            "title": "MARIO'S EARLY YEARS - FUN WITH NUMBERS",
+            "cartridge_type": null,
+            "ROM_size": "1 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "USA",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0x8C0C37F4"
         },
     "UNKNOWN":
         {
@@ -43096,97 +42862,6 @@
         },
     "UNKNOWN":
         {
-            "full_title": "Ring Dash (World) (Demo 1).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x0A479767"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 2).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xB4E6DE65"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 3).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x61CBC222"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 4).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x6EC4DAED"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 5).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xC9CF4F3C"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 6).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xDDC49BC1"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Ring Dash (World) (Demo 7).sfc",
-            "title": "RING DASH",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0xF7A3ABA0"
-        },
-    "UNKNOWN":
-        {
             "full_title": "Ring Dash (World) (v1.1).sfc",
             "title": "RING DASH",
             "cartridge_type": null,
@@ -43405,45 +43080,6 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0xE476912B"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Rrodas Cross (World) (Demo 1).sfc",
-            "title": "RRODAS CROSS",
-            "cartridge_type": null,
-            "ROM_size": "1 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x87A38470"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Rrodas Cross (World) (Demo 2).sfc",
-            "title": "RRODAS CROSS",
-            "cartridge_type": null,
-            "ROM_size": "1 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x63854962"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Rrodas Cross (World) (Demo 3).sfc",
-            "title": "RRODAS CROSS",
-            "cartridge_type": null,
-            "ROM_size": "1 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x186BFD41"
         },
     "UNKNOWN":
         {
@@ -43707,6 +43343,19 @@
         },
     "UNKNOWN":
         {
+            "full_title": "Socks the Cat Rocks the Hill (USA, Europe) (Second Dimension).sfc",
+            "title": "SOCKS THE CAT ROCKS THE HILL",
+            "cartridge_type": null,
+            "ROM_size": "1 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "USA",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0xCAC6521F"
+        },
+    "UNKNOWN":
+        {
             "full_title": "Sonic The Hedgehog (USA) (Pirate) (Alt).sfc",
             "title": "SONIC THE HEDGEHOG",
             "cartridge_type": null,
@@ -43743,32 +43392,6 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0x5E4ADA04"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Space Rescue Squad (World) (Demo 1) (SNESDEV 2025).sfc",
-            "title": "SPACE RESCUE SQUAD",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x88FB19F8"
-        },
-    "UNKNOWN":
-        {
-            "full_title": "Space Rescue Squad (World) (Demo 2).sfc",
-            "title": "SPACE RESCUE SQUAD",
-            "cartridge_type": null,
-            "ROM_size": "0 MiB",
-            "has_RAM": null,
-            "has_Battery": null,
-            "destination": "Unknown",
-            "ROM_version": null,
-            "header_checksum": null,
-            "global_checksum": "0x65E423A5"
         },
     "UNKNOWN":
         {
@@ -43941,6 +43564,19 @@
         },
     "UNKNOWN":
         {
+            "full_title": "SuFami Turbo (Japan).sfc",
+            "title": "SUFAMI TURBO",
+            "cartridge_type": null,
+            "ROM_size": "0 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0x9B4CA911"
+        },
+    "UNKNOWN":
+        {
             "full_title": "Super 20 Hab (Korea) (Pirate).sfc",
             "title": "SUPER 20 HAB",
             "cartridge_type": null,
@@ -44081,6 +43717,32 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0xBCBABD55"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Super Fire Pro Wrestling 3 (Japan) (Auto Demo).sfc",
+            "title": "SUPER FIRE PRO WRESTLING 3",
+            "cartridge_type": null,
+            "ROM_size": "1 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0x10D71B45"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Super Fire Pro Wrestling Special (Japan).sfc",
+            "title": "SUPER FIRE PRO WRESTLING SPECIAL",
+            "cartridge_type": null,
+            "ROM_size": "4 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0xE279EBE3"
         },
     "UNKNOWN":
         {
@@ -44588,6 +44250,19 @@
             "ROM_version": null,
             "header_checksum": null,
             "global_checksum": "0x67E3570F"
+        },
+    "UNKNOWN":
+        {
+            "full_title": "Tales of Phantasia (Japan).sfc",
+            "title": "TALES OF PHANTASIA",
+            "cartridge_type": null,
+            "ROM_size": "6 MiB",
+            "has_RAM": null,
+            "has_Battery": null,
+            "destination": "Japan",
+            "ROM_version": null,
+            "header_checksum": null,
+            "global_checksum": "0xE9946B84"
         },
     "UNKNOWN":
         {
