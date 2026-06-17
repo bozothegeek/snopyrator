@@ -31,19 +31,19 @@ def parse_size_to_bytes(size_str):
     
     return 0
 
-def detect_gba_ram_size(rom_data):
-    # Common strings used by GBA libraries (AgbSram, AgbFlash, etc.)
-    if b"SRAM_V" in rom_data:
-        return "32 KiB"
-    elif b"FLASH_V" in rom_data or b"FLASH512_V" in rom_data:
-        return "64 KiB"
-    elif b"FLASH1M_V" in rom_data:
-        return "128 KiB"
-    elif b"EEPROM_V" in rom_data:
-        # EEPROM is tricky; it can be 0.5 KiB or 8 KiB. 
-        # Most databases default to 8 KiB for compatibility.
-        return "8 KiB"
-    return "0 KiB"
+# def detect_gba_ram_size(rom_data):
+    # # Common strings used by GBA libraries (AgbSram, AgbFlash, etc.)
+    # if b"SRAM_V" in rom_data:
+        # return "32 KiB"
+    # elif b"FLASH_V" in rom_data or b"FLASH512_V" in rom_data:
+        # return "64 KiB"
+    # elif b"FLASH1M_V" in rom_data:
+        # return "128 KiB"
+    # elif b"EEPROM_V" in rom_data:
+        # # EEPROM is tricky; it can be 0.5 KiB or 8 KiB. 
+        # # Most databases default to 8 KiB for compatibility.
+        # return "8 KiB"
+    # return "0 KiB"
     
 def handle_duplicates(pairs):
     result = {}
@@ -98,7 +98,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dump-rom", type=str, default=None, help="Dump ROM to file")
     parser.add_argument("--dump-save", type=str, default=None, help="Dump save to file")
-    parser.add_argument("--rom-source", type=str, default=None, help="Get ram size from rom (GBA only)")
+    #parser.add_argument("--rom-source", type=str, default=None, help="Get ram size from rom (GBA only)")
     parser.add_argument(
         "--write-save", type=str, default=None, help="Write save from file"
     )
@@ -124,17 +124,17 @@ def main():
 
     if (args.dump_save is not None) and (args.write_save is not None):
         cr.printer.warning(
-            "`dump-save` and `write-save` are both set. GBOpyrator will dump the save first and write it after."
+            "`dump-save` and `write-save` are both set. SNOpyrator will dump the save first and write it after."
         )
     cr.initialize_reader(blocking=True,timeout=10)
 
-    #get epilogue id for GB/GBC or GBA
+    #get epilogue id for SNES
     rom_epilogue_id, rom_info_file = cr.get_epilogue_id_and_rom_info_file()
     if(args.debug):
         print("rom_epilogue_id: " + rom_epilogue_id)
         print("rom_info_file use: " + rom_info_file)
-    #get rom info file for GB/GBC or GBA
-    filename = str(files("gbopyrator").joinpath(rom_info_file))
+    #get rom info file for SNES
+    filename = str(files("snopyrator").joinpath(rom_info_file))
     with open(filename, "r", encoding='utf-8') as file:
         roms_db = json.load(file, object_pairs_hook=handle_duplicates)
     
@@ -152,10 +152,10 @@ def main():
         cr.printer.print(f"Detected game: {rom_info['full_title']}")
         if(args.debug and args.quiet):
             print(f"Detected game: {rom_info['full_title']}")
-        if rom_info["SGB_support"]:
-            cr.printer.print(f"""SGB support:\t[blue_violet]Yes[/blue_violet]""")
-        if rom_info["CGB_support"]:
-            cr.printer.print(f"""CGB support:\t[blue_violet]Yes[/blue_violet]""")
+        # if rom_info["SGB_support"]:
+            # cr.printer.print(f"""SGB support:\t[blue_violet]Yes[/blue_violet]""")
+        # if rom_info["CGB_support"]:
+            # cr.printer.print(f"""CGB support:\t[blue_violet]Yes[/blue_violet]""")
         cr.printer.print(
             f"""ROM size:\t[blue_violet]{rom_info['ROM_size']}[/blue_violet]"""
         )
@@ -166,12 +166,11 @@ def main():
         )
         if(args.debug and args.quiet):
             print(f"ROM checksum: {rom_info['global_checksum']}")
-        if rom_info["RAM_size"] != 0:
-            if(args.debug and args.quiet):
-                print(f"RAM size: {rom_info['RAM_size']}")
-            cr.printer.print(
-                f"""RAM size:\t[blue_violet]{rom_info['RAM_size']}[/blue_violet]"""
-            )
+        if(args.debug and args.quiet):
+            print(f"RAM size: {rom_info['RAM_size']}")
+        cr.printer.print(
+            f"""RAM size:\t[blue_violet]{rom_info['RAM_size']}[/blue_violet]"""
+        )
     else:
         cr.printer.warning(
             f"ROM epilogue ID not found in the database. If you know the game, please add it to the database."

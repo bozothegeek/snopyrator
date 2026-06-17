@@ -208,16 +208,21 @@ class CartridgeReader(object):
     @check_initialized
     @get_cartridge_info
     def get_epilogue_id(self, cartridge_info=None):
-        if cartridge_info["cartridge_type"] == "GBA":
-            epilogue_id = (
-                cartridge_info["game_code"].upper()
-                + self.get_region_info(cartridge_info["game_region"])
-            )
-        else: # for GB/GBC
+        # if cartridge_info["cartridge_type"] == "GBA":
+            # epilogue_id = (
+                # cartridge_info["game_code"].upper()
+                # + self.get_region_info(cartridge_info["game_region"])
+            # )
+        # else: # for GB/GBC
+            # epilogue_id = (
+                # cartridge_info["title_first_letter"].upper()
+                # + "{:02x}".format(cartridge_info["header_checksum"]).upper()
+                # + binascii.hexlify(cartridge_info["global_checksum"]).decode().upper()
+            # )
+        if cartridge_info["cartridge_type"] == "SNES":
             epilogue_id = (
                 cartridge_info["title_first_letter"].upper()
-                + "{:02x}".format(cartridge_info["header_checksum"]).upper()
-                + binascii.hexlify(cartridge_info["global_checksum"]).decode().upper()
+                + "{:04x}".format(cartridge_info["header_checksum"]).upper()
             )
         return epilogue_id
 
@@ -232,19 +237,15 @@ class CartridgeReader(object):
     @check_initialized
     @get_cartridge_info
     def get_epilogue_id_and_rom_info_file(self, cartridge_info=None):
-        if cartridge_info["cartridge_type"] == "GBA":
-            epilogue_id = (
-                cartridge_info["game_code"].upper()
-                + self.get_region_info(cartridge_info["game_region"])
-            )
-            rom_info_file = "gba_roms_info.json"
-        else: # for GB/GBC
+        if cartridge_info["cartridge_type"] == "SNES":
+            print(f"cartridge_info['title_first_letter'] : {cartridge_info['title_first_letter'].upper()}")
+            print(f"cartridge_info[header_checksum] : {cartridge_info['header_checksum'][::-1].hex().upper()}")
+            
             epilogue_id = (
                 cartridge_info["title_first_letter"].upper()
-                + "{:02x}".format(cartridge_info["header_checksum"]).upper()
-                + binascii.hexlify(cartridge_info["global_checksum"]).decode().upper()
+                + cartridge_info['header_checksum'][::-1].hex().upper()
             )
-            rom_info_file = "gb_gbc_roms_info.json"
+            rom_info_file = "snes_roms_info.json"
         return epilogue_id, rom_info_file
 
     def file_crc32(self, filename):

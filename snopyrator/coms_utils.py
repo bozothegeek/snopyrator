@@ -499,16 +499,23 @@ def read_cartridge_info(gbop_device, debug=False):
             mbc_type = "LoROM + DSP-1 (Mario Kart Type)"
         else:
             mbc_type = f"Unknown Mapper (Flags: {hardware_flags.hex()})"
+
+        # Raw conversion of byte 17 from the hardware payload
+        first_letter = chr(received_data[17])
+        # Security check: If the character is not alphanumeric, force it to match your fallback space
+        if not first_letter.isalnum():
+            first_letter = " "
+
         cartridge_info = {
             "cartridge_type": "SNES",
             "ROM_size": rom_size_bytes, #confirmed
             "RAM_size": ram_size_bytes, #confirmed
-            "title_first_letter": chr(received_data[17]), # it's finally the first from the 3 letters from internal name
+            "title_first_letter": first_letter,
             "MBC_type": mbc_type,
             "ROM_type": "", #unknown
             "RAM_type": "", #unknown
-            "header_checksum": received_data[0], #unknown
-            "global_checksum": received_data[13:14], #checksum confirmed but inversed
+            "header_checksum": received_data[13:15],
+            "global_checksum": "", #unknown
         }
 
     return cartridge_info
