@@ -133,6 +133,7 @@ def main():
     if(args.debug):
         print("rom_epilogue_id: " + rom_epilogue_id)
         print("rom_info_file use: " + rom_info_file)
+    
     #get rom info file for SNES
     filename = str(files("snopyrator").joinpath(rom_info_file))
     with open(filename, "r", encoding='utf-8') as file:
@@ -166,11 +167,12 @@ def main():
         )
         if(args.debug and args.quiet):
             print(f"ROM checksum: {rom_info['global_checksum']}")
-        if(args.debug and args.quiet):
-            print(f"RAM size: {rom_info['RAM_size']}")
-        cr.printer.print(
-            f"""RAM size:\t[blue_violet]{rom_info['RAM_size']}[/blue_violet]"""
-        )
+        # to manage later
+        # if(args.debug and args.quiet):
+            # print(f"RAM size: {rom_info['RAM_size']}")
+        # cr.printer.print(
+            # f"""RAM size:\t[blue_violet]{rom_info['RAM_size']}[/blue_violet]"""
+        # )
     else:
         cr.printer.warning(
             f"ROM epilogue ID not found in the database. If you know the game, please add it to the database."
