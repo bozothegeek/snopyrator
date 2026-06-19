@@ -160,7 +160,10 @@ def convert_combined_databases(dat_url, gamedb_url):
         # Fixed: Move regex search and calculation outside the f-string
         size_match = re.search(r'size\s+(\d+)', block)
         size_bytes = int(size_match.group(1)) if size_match else 0
-        rom_size_mib = f"{size_bytes // (1024*1024)} MiB"
+        if((size_bytes / 1024) >= 1024):
+            rom_size_mib = f"{size_bytes // (1024*1024)} MiB"
+        else:
+            rom_size_mib = f"{size_bytes // (1024)} KiB"
         
         reg_match = re.search(r'region\s+"(.*?)"', block)
         destination = reg_match.group(1) if reg_match else "Unknown"
